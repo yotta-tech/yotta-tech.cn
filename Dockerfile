@@ -6,11 +6,10 @@ WORKDIR /home/app
 
 # Bundle app source
 COPY . /home/app
-RUN npm install --production
+RUN npm install
 
-ENV HTTP_PORT=8080
 ENV NODE_ENV=production
 
-EXPOSE 8080
+EXPOSE 3000
 CMD ["npm", "run", "build"]
 CMD ["npm", "run", "start"]
