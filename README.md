@@ -1,3 +1,3 @@
-# yotta-tech.cn
+# yotta-tech
 
-> yotta-tech official website
+> yotta-tech.cn
